@@ -16,7 +16,6 @@ class ParseXml extends BaseParse
      * @var array
      */
     public $ResultArray = [];
-    private $ParseResult;
 
     /**
      * ParseXml constructor.

@@ -1,6 +1,6 @@
 <?php
 include_once(__DIR__ . '/class.init.php');
-$parseConfig = ["type" => "xml", "additional" => 'simple'];
+$parseConfig = ["type" => "xml", "additional" => 'simple']; //базовые конфигурации type - вид файла csv|xml , additional - дополнительные настройки для csv - разделитель, для xml -simple(теговый) или attribute(по атрибутам)
 $parseString = "<?xml version=\"1.1\" encoding=\"UTF-8\" ?>
      <workers>
          <worker>
